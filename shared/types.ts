@@ -66,3 +66,14 @@ export type PricingPlan = {
   features: string[];
   isPopular?: boolean;
 };
+
+// Document Type
+export type Document = {
+  id: number;
+  name: string;
+  fileType: string;
+  pages: number;
+  userId: number;
+  createdAt: string;
+  updatedAt: string;
+};
