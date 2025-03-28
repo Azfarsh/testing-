@@ -11,7 +11,7 @@ const HeroSection = () => {
               Effortless Printing, <span className="text-primary">Anytime, Anywhere.</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Skip the queues and manage your printing tasks on the go. Our automated system lets you book tokens, configure print settings, and pay securely — all from your device.
+              Experience hassle-free printing with our smart automation. Upload your documents, select your preferences, and collect your prints when ready - it's that simple!
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/signup">
@@ -19,10 +19,10 @@ const HeroSection = () => {
                   Get started
                 </Button>
               </Link>
-              <Link href="/services">
+              <Link href="/signup">
                 <Button variant="outline" size="lg" className="inline-flex items-center gap-2">
-                  Learn more
-                  <svg className="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  Try it now
+                  <svg className="h-5 w-5 text-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                   </svg>
                 </Button>
